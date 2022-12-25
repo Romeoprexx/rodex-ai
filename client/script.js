@@ -66,7 +66,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
 
-  const response = await fetch('https://rodex-bot.onrender.com', {
+  const response = await fetch('https://rodex-ai.onrender.com', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
